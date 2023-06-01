@@ -33,7 +33,15 @@
     font-size: 12vmin;
     color: #d161ff;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
   }
+  
+  .button-option:hover {
+    background-color: #f9aaf8;
+    color: #fff;
+  }
+
   #restart {
     font-size: 1.3em;
     padding: 1em;
@@ -45,6 +53,7 @@
     margin: 1.5em auto 0 auto;
     display: block;
   }
+
   .popup {
     background: linear-gradient(135deg, #8052ec, #d161ff);
     height: 100%;
